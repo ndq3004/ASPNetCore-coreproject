@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D404587B-EB50-4119-89C8-B65BF2DDF899}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{9EE8A94D-15E4-488D-B372-EE70E1F6CEB6}"
+	ProjectSection(SolutionItems) = preProject
+		backend\config\appsettings.Development.json = backend\config\appsettings.Development.json
+		backend\config\appsettings.json = backend\config\appsettings.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Core.Web", "backend\core\NDQUAN.Core.Web\NDQUAN.Core.Web.csproj", "{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "startup", "startup", "{14E9C1DF-3EE6-4C64-9986-73CAF990DACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseStartup", "backend\startup\BaseStartup.csproj", "{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00FE649B-C414-4BE1-BB13-C7EDF181D861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Auth.API", "backend\src\NDQUAN.Auth.API\NDQUAN.Auth.API.csproj", "{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Core.DL", "backend\core\NDQUAN.Core.DL\NDQUAN.Core.DL.csproj", "{3E182051-57C6-4577-B8F1-2A257D15EFC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Core.Models", "backend\core\NDQUAN.Core.Models\NDQUAN.Core.Models.csproj", "{6D3B6050-D4FA-4544-8188-4B57F0F682F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Core.Common", "backend\core\NDQUAN.Core.Common\NDQUAN.Core.Common.csproj", "{5BE71414-E69B-47DA-81BD-AE575D847E15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDQUAN.Business.API", "backend\src\NDQUAN.Business.API\NDQUAN.Business.API.csproj", "{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E182051-57C6-4577-B8F1-2A257D15EFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E182051-57C6-4577-B8F1-2A257D15EFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E182051-57C6-4577-B8F1-2A257D15EFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E182051-57C6-4577-B8F1-2A257D15EFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3B6050-D4FA-4544-8188-4B57F0F682F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3B6050-D4FA-4544-8188-4B57F0F682F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3B6050-D4FA-4544-8188-4B57F0F682F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3B6050-D4FA-4544-8188-4B57F0F682F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE71414-E69B-47DA-81BD-AE575D847E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE71414-E69B-47DA-81BD-AE575D847E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE71414-E69B-47DA-81BD-AE575D847E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE71414-E69B-47DA-81BD-AE575D847E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AB8F95E-C4F0-4EA0-9171-1DEA7F240E1E} = {D404587B-EB50-4119-89C8-B65BF2DDF899}
+		{F4112BF1-91A2-45A1-B2BB-FD0EDE06C35B} = {14E9C1DF-3EE6-4C64-9986-73CAF990DACE}
+		{5D7E1111-72F3-4FE5-883B-F248B8FEF1DE} = {00FE649B-C414-4BE1-BB13-C7EDF181D861}
+		{3E182051-57C6-4577-B8F1-2A257D15EFC2} = {D404587B-EB50-4119-89C8-B65BF2DDF899}
+		{6D3B6050-D4FA-4544-8188-4B57F0F682F9} = {D404587B-EB50-4119-89C8-B65BF2DDF899}
+		{5BE71414-E69B-47DA-81BD-AE575D847E15} = {D404587B-EB50-4119-89C8-B65BF2DDF899}
+		{B2A32D0F-CFEE-4E4A-A25F-28204F302FB5} = {00FE649B-C414-4BE1-BB13-C7EDF181D861}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90178735-704C-43AB-A9F5-0FE2856A4F1B}
+	EndGlobalSection
+EndGlobal
