@@ -1,10 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\NDQUAN.Resource\NDQUAN.Resource.csproj" />
+    <ProjectReference Include="..\..\core\NDQUAN.Resource\NDQUAN.Resource.csproj" />
     <ProjectReference Include="..\..\startup\BaseStartup.csproj" />
   </ItemGroup>
 

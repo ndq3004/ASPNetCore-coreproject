@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using NDQUAN.Resource;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Resources;
 using System.Threading.Tasks;
 
 namespace NDQUAN.Business.API.Controllers
@@ -27,6 +29,7 @@ namespace NDQUAN.Business.API.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
+            var dic = ResourceDataManager.GetModelMappingName();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
