@@ -50,3 +50,5 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+
+*.dtbcache.v2
